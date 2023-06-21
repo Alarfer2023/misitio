@@ -1,0 +1,69 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body{ /*Establece el color del fondo de la página*/
+    background-color: rgb(253, 247, 247);
+}
+
+#Título-WEB{
+    font-family: 'Montserrat', sans-serif;
+    /*font-family: bentonSansBBVA-Medium,Helvetica, Arial, sans-serif;*/
+    font-size: 50px;
+    color: rgb(16, 4, 4);  
+}
+
+.marco-circular{ /*Establece un marco circular para la foto*/
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.marco-circular img{ /* establece las medidas de la foto dentro del marco circular */
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+/*propuesta para la foto en un marco cuadrado y una medida de 200px
+img{
+    width: 200px;
+}*/
+
+.titulo-destacado1{ /*Clase creada para establecer las características de los títulos de cada sección*/
+    font-family: bentonSansBBVA-Medium,Helvetica, Arial, sans-serif;
+    font-size: 40px;
+    color: rgb(16, 4, 4);
+}
+
+.subtitulo{ /*Clase creada para establecer las características de los subtítulos de cada sección*/
+    font-family: bentonSansBBVA-Medium,Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    color: rgb(16, 4, 4);
+}
+
+.respuesta-destacada{ /*Clase creada para establcer las características del contenido de cada subtítulo*/
+    font-family: bentonSansBBVA-Medium,Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    color: rgb(16, 4, 4)    
+}
+
+#resaltado_1{/*id que contiene las características del marco que resalta alguna respuesta importante*/
+    background: #e0e198;
+    font-family: bentonSansBBVA-Medium,Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight:bold;
+}
+
+.icono{ /*Clase creada para Agregar o cambiar características a todos los iconos por igual*/
+    font-size: 50px;
+}
+
+.footer{/*Clae creada para contener todas las características de la sección footer*/
+    font-family: bentonSansBBVA-Medium,Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    background: border-box #f1c3768a;
+}
